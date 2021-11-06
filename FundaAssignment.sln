@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundaAssignment.Web", "FundaAssignment.Web\FundaAssignment.Web.csproj", "{9357BACC-789A-4C26-A19C-DF82042D695B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundaAssignment.Web.UnitTests", "FundaAssignment.Web.UnitTests\FundaAssignment.Web.UnitTests.csproj", "{B884D6CA-F9D4-4B8E-9262-BFC4FF1E482B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9357BACC-789A-4C26-A19C-DF82042D695B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9357BACC-789A-4C26-A19C-DF82042D695B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9357BACC-789A-4C26-A19C-DF82042D695B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9357BACC-789A-4C26-A19C-DF82042D695B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B884D6CA-F9D4-4B8E-9262-BFC4FF1E482B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B884D6CA-F9D4-4B8E-9262-BFC4FF1E482B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B884D6CA-F9D4-4B8E-9262-BFC4FF1E482B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B884D6CA-F9D4-4B8E-9262-BFC4FF1E482B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

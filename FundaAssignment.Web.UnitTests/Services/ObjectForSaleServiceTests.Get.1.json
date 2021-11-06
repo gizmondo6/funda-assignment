@@ -1,0 +1,17 @@
+{
+  "Objects": [
+    {
+      "Id": "3F4E0D7E-332A-44D8-933D-0D88EA4908D7",
+      "MakelaarId": 1,
+      "MakelaarNaam": "Agent 1"
+    },
+    {
+      "Id": "A7108368-5B71-4704-BF9B-1AB8AAD0B92E",
+      "MakelaarId": 1,
+      "MakelaarNaam": "Agent 1"
+    }
+  ],
+  "Paging": {
+    "AantalPaginas": 2
+  }
+}

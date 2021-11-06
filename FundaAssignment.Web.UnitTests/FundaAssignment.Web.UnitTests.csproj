@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
+        <PackageReference Include="NSubstitute" Version="4.2.2" />
+        <PackageReference Include="NUnit" Version="3.13.1" />
+        <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+        <PackageReference Include="coverlet.collector" Version="3.0.2" />
+        <PackageReference Include="Shouldly" Version="4.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FundaAssignment.Web\FundaAssignment.Web.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Services\ObjectForSaleServiceTests.Get.1.json" />
+      <Content Include="Services\ObjectForSaleServiceTests.Get.1.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Services\ObjectForSaleServiceTests.Get.2.json" />
+      <Content Include="Services\ObjectForSaleServiceTests.Get.2.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

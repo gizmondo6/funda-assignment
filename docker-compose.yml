@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    build: ./FundaAssignment.Web
+    ports:
+      - 5000:80    
